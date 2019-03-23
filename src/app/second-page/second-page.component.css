@@ -1,0 +1,25 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* .example-card {
+  max-width: 400px;
+} */
+
+.example-header-image {
+  background-image: url('https://i2.wp.com/www.amarok-mag.com/wp-content/uploads/2017/10/David-Gilmour.jpg');
+  background-size: cover;
+}
+
+.example-header-image2 {
+  background-image: url('http://ekladata.com/lwwvZDy0i0d8Ng2SWoicpyTiekc.jpg');
+  background-size: cover;
+}
+
+.example-header-image3 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSznxYY2aGZR8iGlLeIT8if34REv7MlWXu0Cl3jOW8-rV-j80aA');
+  background-size: cover;
+}
+
+.mdl-grid{
+  background-color:#880e4f;
+
+}

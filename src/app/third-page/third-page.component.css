@@ -1,0 +1,6 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.mdl-grid{
+  background-color:#9c27b0;
+
+}

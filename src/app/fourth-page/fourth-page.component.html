@@ -1,0 +1,76 @@
+<div class="content-grid mdl-grid">
+
+  <div class="content-column mdl-cell mdl-cell--7-col mdl-cell--12-col-tablet mdl-cell--7-col-phone mdl-cell--top">
+
+
+
+
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Contact us</mat-card-title>
+        <mat-card-subtitle>and them</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://i.pinimg.com/originals/c5/7d/23/c57d232ddcafc0b42b091a7081531248.png" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+
+      </mat-card-content>
+
+    </mat-card>
+  </div>
+
+
+  <!-- Copyright 2019 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
+
+  <div class="content-column mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet mdl-cell--5-col-phone mdl-cell--top">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Nous contacter</mat-card-title>
+        <mat-card-subtitle>A propos des Floyds</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+
+        <h6>Together they stand !
+          <br>
+          46, Pink Flamingo Street - London
+          <br>
+          +33 1 23 45 67 89
+
+
+        </h6>
+
+        <p>
+          Avez-vous un projet à nous soumettre ? <br>
+          Vous souhaitez nous contacter ?
+          <br>
+          Pour toute demande de devis ou d'information
+          <br>
+          Ecrivez nous par mail !
+
+        </p>
+        <div class="example-container">
+          <mat-form-field>
+            <input matInput placeholder="Enter your email adress" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+        </div>
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Subject" value="Subject">
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+            <textarea matInput placeholder="Send a us a message"></textarea>
+          </mat-form-field>
+        </form>
+        <button mat-button>
+          <mat-icon>send</mat-icon>
+        </button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

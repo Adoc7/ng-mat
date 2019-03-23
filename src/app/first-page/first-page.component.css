@@ -1,0 +1,24 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* .example-card {
+  max-width: 400px;
+} */
+
+.example-header-image {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgIHwUaw9v7VnByWKeevyp5Z3-iWOOnEgMqw9s1EY8xTSC6rW');
+  background-size: cover;
+}
+
+
+
+
+.purple{
+  color: purple;
+}
+
+.red, .matInput{
+  color: red;
+}
+
+
+

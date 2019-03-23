@@ -1,0 +1,29 @@
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+/* .example-card {
+  max-width: 400px;
+} */
+
+.example-header-image {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbgIHwUaw9v7VnByWKeevyp5Z3-iWOOnEgMqw9s1EY8xTSC6rW');
+  background-size: cover;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
